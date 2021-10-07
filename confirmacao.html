@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="main.js"></script>
+    <title>Confirme sua presença!</title>
+</head>
+<body>
+    <h1>Confirme sua presença!</h1>
+    <section class="container">
+        <form id="confirma" action="mailto:webmaster@example.com">
+            <input id="email" class="rounded-3" type="email" placeholder="Digite aqui seu email">
+            <button id="sim" onclick="resposta('sim')" class="rounded-3 bg-success text-white" type="submit"> Confirmo!</button>
+            <button id ="nao" onclick="resposta('nao')" class="rounded-3 bg-danger text-white" type="submit" >Não vou poder ir</button>
+        </form>
+
+        <h2 class="d-block mx-auto" id="resposta"></h2>
+        <button id="voltar" class="bg-secondary rounded-3 text-white d-block mx-auto">
+            <a href="index.html">Voltar</a>
+        </button>
+    </section>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #bab3c09d;
+}
+.bg-imagem{
+    background: url(https://images.unsplash.com/photo-1580824456266-c578703e13da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80) #1100006e;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken ;
+    color:rgb(255, 255, 255);
+}
+#carousel{
+    margin: 20px auto;
+    height: 80%;
+    background-size: cover;
+}
+#redesSociais{
+    text-align: center;
+}
+
+#redesSociais a{
+    margin: 10px;
+}
+#cerimonia h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#convite{
+    background-color: #ddd8e0;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+}
+footer{ 
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+}
+footer button:hover{
+    background-color: rgb(199, 195, 195) ;
+}
+ h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#confirma{
+    text-align: center;
+    margin-top: 10rem;
+} 
+#voltar{
+    margin-top: 20px;
+}
+
+#resposta {
+    margin: 30px auto;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(45, 28, 65);
+}
